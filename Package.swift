@@ -12,7 +12,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "RickGameHubCore",
-            targets: ["RickGameHubCore"]),
+            targets: ["RickGameHubCore"]
+        )
     ],
     dependencies: [
         
